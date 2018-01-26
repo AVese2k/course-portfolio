@@ -1,49 +1,178 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Project: Blog</title>
-        <style>
-            #title {
-                color:rgb(18, 181, 0);
-                font-family:serif;
-                font-weight:bold;
-                font-size:35px;
-            }
-            #contents {
-                color:rgb(86, 92, 86);
-                font-family:sans-serif;
-                font-style:italic;
-            }
-            #first-post {
-                color:rgb(245, 12, 12);
-                font-family:monospace;
-                
-            }
-            #second-post {
-                color:rgb(12, 35, 242);
-                font-family:monospace;
-            }
-        </style>
-    </head>
-    <body>
-        
-        <h1 id = "title">My Blog</h1>
-
-        <h3 id = "contents">Contents</h3>
-        <ul>
-            <li><a href = "#first-post">First post</a></li>
-            <li><a href = "#second-post">Second post</a></li>
-        </ul>
-        
-        <h2 id = "first-post">First post</h2>
-        <h6>Posted on October 15</h6>
-        
-        <p>Normal day</p>
-        
-        <h2 id = "second-post">Second post</h2>
-        <h6>Posted on October 17</h6>
-        
-        <p>Another normal day</p>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <title>Exit Interview</title>
+    <style>
+      body {
+        background-color: rgb(10, 130, 70);
+        font-family: sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0;
+        min-width: 1000px;
+      }
+      #toolbar {
+        color: black;
+        background-color: rgb(255, 255, 255);
+      }
+      #toolbar h2 {
+        display:inline;
+        padding-left: 200px;
+        padding-right: 200px;
+      }
+      #toolbar a {
+        color: black;
+        text-decoration: none;
+      }
+      p {
+        text-align: left;
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+      .Return-to-top {
+        color: white;
+				display: block;
+        padding-bottom: 20px;
+			}
+      .list-item {
+        text-align: left;
+        padding-left: 100px;
+        list-style-position: inside;
+      }
+      .introJS {
+        color: rgb(250, 230, 30);
+      }
+      .introHTML {
+        color: rgb(60, 190, 255);
+      }
+      .introSQL {
+        color: rgb(0, 0, 0);
+      }
+      .advancedJS-games {
+        color: rgb(255, 0, 0);
+      }
+      .advancedJS-nature {
+        color: rgb(0, 255, 0);
+      }
+      .advancedHTML-regular {
+        color: rgb(255, 255, 255);
+      }
+      .advancedHTML-jQuery {
+        color: rgb(0, 0, 255);
+      }
+      .algorithms {
+        color: rgb(255, 120, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">Exit Interview</h1>
+		<div id="toolbar">
+			<h2><a href="#projects">Projects</a></h2>
+			<h2><a href="#workflow">Workflow</a></h2>
+			<h2><a href="#future">Future</a></h2>
+		</div>
+    <h2 id="projects">Projects</h2>
+    <p>
+      In this course, I focused mostly on completing as much as I could on Khan Academy.
+      I completed 100% in eight of the different categories in computer programming and computer science.
+      The categories I completed are:
+    </p>
+    <ul class="category-list">
+      <li class="list-item introJS">Intro to JS: Drawing & Animation</li>
+      <li class="list-item introHTML">Intro to HTML/CSS: Making webpages</li>
+      <li class="list-item introSQL">Intro to SQL: Querying and managing data</li>
+      <li class="list-item advancedJS-games">Advanced JS: Games and Visualizations</li>
+      <li class="list-item advancedJS-nature">Advanced JS: Natural Simulations</li>
+      <li class="list-item advancedHTML-regular">HTML/JS: Making webpages interactive</li>
+      <li class="list-item advancedHTML-jQuery">HTML/JS: Making webpages interactive with jQuery</li>
+      <li class="list-item algorithms">Algorithms</li>
+    </ul>
+    <p>
+      In Advanced JS: Natural Simulations, I am waiting for a few projects to be evaluated, and in Algorithms, I cannot successfully submit the two projects.
+      Once these are completed, I will be 100% done these eight categories on Khan Academy.
+      Here is a list of all the projects i have done:
+    </p>
+    <ul class="project-list">
+      <li class="list-item introJS">Super Snowman</li>
+      <li class="list-item introJS">Wild Animal</li>
+      <li class="list-item introJS">Self Portrait</li>
+      <li class="list-item introJS">What's for Dinner</li>
+      <li class="list-item introJS">Shooting Star</li>
+      <li class="list-item introJS">Animal Attack</li>
+      <li class="list-item introJS">Magic 8-Ball</li>
+      <li class="list-item introJS">Ad Design</li>
+      <li class="list-item introJS">Fish Tank</li>
+      <li class="list-item introJS">Build-a-House</li>
+      <li class="list-item introJS">Make it Rain</li>
+      <li class="list-item introJS">Bookshelf</li>
+      <li class="list-item introHTML">Travel Webpage</li>
+      <li class="list-item introHTML">Recipe Book</li>
+      <li class="list-item introHTML">Blog</li>
+      <li class="list-item introHTML">Event Invite</li>
+      <li class="list-item introSQL">Design a Store Database</li>
+      <li class="list-item introSQL">Data Dig</li>
+      <li class="list-item introSQL">Famous People</li>
+      <li class="list-item introSQL">App impersonator</li>
+      <li class="list-item advancedJS-games">Hoppy Beaver Extreme</li>
+      <li class="list-item advancedJS-games">Memory++</li>
+      <li class="list-item advancedJS-nature">Paint Splatter</li>
+      <li class="list-item advancedJS-nature">Mountain Range</li>
+      <li class="list-item advancedJS-nature">Computational Creatures</li>
+      <li class="list-item advancedJS-nature">Creature Comforts and Critter Jitters</li>
+      <li class="list-item advancedJS-nature">Asteroids Spaceship (Waiting for evaluation)</li>
+      <li class="list-item advancedJS-nature">Curling, Crawling, Circling Creatures (Waiting for evaluation)</li>
+      <li class="list-item advancedJS-nature">Creature Colonies (Waiting for evaluation)</li>
+      <li class="list-item advancedHTML-jQuery">Scene Change</li>
+      <li class="list-item advancedHTML-jQuery">Word Game</li>
+      <li class="list-item advancedHTML-jQuery">Interactive Slideshow</li>
+      <li class="list-item algorithms">Selection Sort Visualizer (unable to submit)</li>
+      <li class="list-item algorithms">Recursive Art (unable to submit)</li>
+    </ul>
+    <p>
+      These are the ten projects I would like to have marked:
+    </p>
+    <ul>
+      <li class="list-item introJS">Bookshelf</li>
+      <li class="list-item advancedJS-games">Hoppy Beaver Extreme</li>
+      <li class="list-item advancedJS-games">Memory++</li>
+      <li class="list-item advancedJS-nature">Paint Splatter</li>
+      <li class="list-item advancedJS-nature">Mountain Range</li>
+      <li class="list-item advancedJS-nature">Computational Creatures</li>
+      <li class="list-item advancedJS-nature">Asteroids Spaceship</li>
+      <li class="list-item advancedJS-nature">Curling, Crawling, Circling Creatures</li>
+      <li class="list-item advancedHTML-jQuery">Scene Change</li>
+      <li class="list-item algorithms">Selection Sort Visualizer</li>
+    </ul>
+    <p>
+      As well as working on Khan Academy, I spent some time creating a website for my 20 time project.
+      This was one of the more interesting parts of the course, as it was a bigger project.
+      In the future I will continue learning new languages, and might use Khan Academy to help me.
+      My next big project will most likely be a website.
+    </p>
+    <a href="#title" class="Return-to-top">Return to top</a>
+    <h2 id="workflow">Workflow</h2>
+    <p>
+      My ideal workflow is that I would be able to connect the files from my computer to GitHub using Git.
+      During this course, I copy and pasted the code from Khan Academy into a file in a GitHub repository, which is not the most effective workflow.
+      In the future, I would like to learn how to use Git so I can effectively link my computer to GitHub, instead of just copy and pasting.
+      Also, for big projects like a website, I could use the version control feature of GitHub to try various things in the code.
+      By using this feature, i would be able to easily find a working version of my code if my experimenting did not work.
+      Lastly, it would be easy to work with other people because you can fork their work and add your own code without ruining the other persons code.
+      If the owner of the code likes what you did, they can merge your branch into their master branch.
+    </p>
+    <a href="#title" class="Return-to-top">Return to top</a>
+    <h2 id="future">Future</h2>
+    <p>
+      The three things I am looking to learn next related is Git, a new language, and calculus and vectors.
+      Since I am going into software engineering next year, I will have to learn new languages, so I could possibly get a head start.
+      I could use Khan Academy or another online resource to start learning a new language.
+      In terms of Git, I want to learn it so I can have an effective workflow.
+      Khan Academy does not have Git lessons, so i could learn it using other online resources.
+      Next semester I have a calculus and vectors class, so I will be expanding my knowledge of mathematics soon.
+      By doing this class it will help me think in a problem-solving way, which will help when I code.
+    </p>
+    <a href="#title" class="Return-to-top">Return to top</a>
+  </body>
 </html>
